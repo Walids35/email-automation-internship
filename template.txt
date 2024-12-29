@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+        .header {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .content {
+            margin-top: 15px;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Dear {name},</div>
+    <div class="content">
+        <p>
+            I hope this message finds you well. 
+        </p>
+        <p>
+            My name is <b>Walid Siala</b>, and I am currently a final-year student pursuing a degree in Software Engineering. I am reaching out to express my interest in potential internship opportunities within your <b>DevOps/Cloud team</b> at <b>{company_name}</b>. As part of my academic program, I am required to complete an internship starting from <b>February 2025 that lasts 4 - 6 months</b>. I am eager to apply my skills and knowledge in a practical setting and believe that my background aligns well with the innovative work being done at your organization.
+        </p>
+        <p>
+            Through my studies, I have developed a strong foundation in <b>cloud computing</b> and <b>DevOps methodologies</b>. I have gained hands-on experience with cloud platforms such as Amazon Web Services (AWS) and Microsoft Azure, as well as containerization tools like Docker and orchestration technologies such as Kubernetes. For instance, in a recent project, I designed and deployed a highly available AWS architecture using Terraform, integrating Auto Scaling, Load Balancers, and Docker for scalability. I also automated monitoring, logging, and anomaly detection with AWS CloudWatch, Lambda, and SageMaker, while streamlining deployments through CI/CD pipelines using GitHub Actions.
+        </p>
+        <p>
+            I invite you to view my portfolio at <a href="https://walid-siala.com/">https://walid-siala.com/</a> to see examples of my projects and technical capabilities, and to take a look at my resume attached to this email.
+        </p>
+        <p>
+            Thank you for considering my spontaneous application. I look forward to the possibility of connecting with you to explore how I can contribute to <b>{company_name}</b>.
+        </p>
+    </div>
+    <div class="footer">
+        Warm regards,<br>
+        <b>Walid Siala</b><br>
+        <a href="mailto:walid.siala@medtech.tn">walid.siala@medtech.tn</a><br>
+        <a href="https://www.linkedin.com/in/walid-siala-/">LinkedIn</a> | <a href="https://walid-siala.com/">Portfolio</a>
+    </div>
+</body>
+</html>
